@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert(Chat Bot)</title>
+    <link rel = "stylesheet" href = "style.css">
+   
+   
+</head>
+<body>
+    <div class="container">
+        <div id="heading_div">
+            <h1 id="heading">
+                Robert
+            </h1>
+        </div>
+        <div id="menu_div">
+            
+            <button id = "menu_button" type="button" onclick = open_guide()>☰</button>
+        </div>
+        <div id="chat_div">
+            <p id = "chat">
+                Robert : Hi , Hello how can I help you ?
+            </p>
+        </div>
+        <center>
+            
+        <div id="input_div">
+            <input type="text" onkeyup="return enterKeyPressed(event)" id="input" placeholder="ask something">
+    
+            <button id = "submit_btn" onclick = "ask()" >↵</button>
+        </div>
+        </center>
+        <div class="display_container">
+            <div id="display_div">
+               
+                <center>
+                <iframe  frameborder="0"  id="display">
+                    <p id ="coockies">
+                        hello
+                       </p> 
+                   
+                </iframe>
+                 
+                </center>
+            </div>
+        </div>
+    </div>
+    
+    <script src = "script.js"></script>
+</body>
+</html>

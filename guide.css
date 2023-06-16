@@ -1,0 +1,120 @@
+body{
+    background-color: black; 
+     color:black;
+    animation: bg;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    padding:0.5%;
+    
+ }
+ @keyframes bg {
+   0%{
+     background-color: black;
+   }
+   25%{
+     background-color: white;
+   }
+   50%{
+     background-color: black;
+   }
+   75%{
+     background-color: white;
+   }
+   100%{
+     background-color: black;
+ 
+   }
+   
+ }
+ #answer_div{
+ padding-left: 4%;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: 50%;
+}
+#bold{
+  font-weight:bolder;
+  color:black;
+}
+.un{
+  text-decoration: underline;
+}
+#another_method{
+  font-weight:bolder;
+}
+#answer_div{
+  background-color: tomato;
+  border-radius: 14%;
+  padding:2%;
+  margin-bottom: 2%;
+}
+ .container{
+  
+  transform: translateY(30%);
+    background-color: coral;
+    padding:2%;
+    margin:2%;
+    border-radius: 14%;
+    border-collapse: separate; 
+    
+    align-items: center;
+    margin-top: auto;
+    opacity: 80%;
+    
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    
+}
+#back_btn{
+  color: black;
+    display:flex;
+    justify-content: left;
+    background-color: coral;
+    
+}
+#back_btn:hover{
+  display:flex;
+  justify-content: left;
+  background-color: coral;
+  transform:translateY(-20%);
+  
+}
+#back_btn_div{
+    padding-top: 2%;
+    padding-left: 2%;
+   
+}
+
+#help_h{
+  display: flex;
+  justify-content: center;
+}
+#user_option{
+  background-color: coral;
+  text-align: center;
+   font-size: medium;
+}
+select{
+  border: 2px solid tomato;
+  width:auto;
+  font-style: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.odd{
+  background-color: tomato;
+}
+#option{
+  display: flex;
+  justify-content: center;
+  background-color: coral;
+  text-align: center;
+  
+}
+#drop_div{
+  padding:1%;
+}
+.odd{
+  background-color: tomato;
+}

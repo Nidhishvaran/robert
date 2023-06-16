@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel = "icon" href = "icon.png">
+    <script src = "script.js"></script>
+    <link rel = "stylesheet" href="guide.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="back_btn_div">
+            <button id = "back_btn" onclick = "back()">←</button>
+        </div>
+        <div id="heading_div">
+            <h1 id = "heading">
+                Menu
+
+            </h1>
+        </div>
+        <div id="help_h">
+            <h1 id = "help_heading">
+              1)  Help me to use
+              <div id="drop_div">
+                <select   id = "option" onchange="help_me()">
+                    <option value="" selected disabled hidden>Selact here</option>
+                    <option>Map</option>
+                    <option class = "odd" >Google search</option>
+                    <option >Search</option>
+                    <option class = "odd" >Opening website</option>
+                    <option >Opening youtube</option>
+                    <option class = "odd" >Wikipedia search</option>
+                    <option >Search about person</option>
+                    <option class = "odd" >Opening url</option>
+                    
+
+                    
+                </select>
+            </div>
+            </h1>
+           
+        </div>
+      
+        <div id="answer_div">
+            <p id = "answer_help">
+               
+        </div>
+        
+    </div>
+    <script src = "guide.js"></script>
+</body>
+</html>

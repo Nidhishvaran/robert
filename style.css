@@ -1,0 +1,175 @@
+body{
+   background-color: black; 
+    color:black;
+   animation: bg;
+   animation-duration:15s;
+   animation-iteration-count:infinite;
+   
+}
+@keyframes bg {
+  0%{
+    background-color: black;
+  }
+  25%{
+    background-color: white;
+  }
+  50%{
+    background-color: black;
+  }
+  75%{
+    background-color: white;
+  }
+  100%{
+    background-color: black;
+
+  }
+  
+}
+iframe{
+  border:2px solid black;
+  margin-right:auto;
+  margin-left:auto;
+  width:400px;
+  height:420px;
+  background-color: #fbb666;
+  
+   
+}
+#display_div{
+  height:200% auto;
+  animation-delay: 2s;
+
+
+}
+@keyframes display {
+  0%{
+    border-bottom-style: none;
+    border-left-style: dotted;
+  }
+  25%{
+    border-left-style: none;
+    border-top-style: dotted;
+
+  }
+  50%{
+    border-top-style:none;
+    border-right-style: dotted;
+  }
+  100%{
+    border-right-style: none;
+    border-bottom-style: dotted;
+
+  }
+  
+}
+.display_container{
+  padding-top:2%;
+  display: flex;
+  justify-content: center;
+  padding:2%;
+  height:200%;
+
+}
+
+.container{
+    background-color: coral;
+    border-radius: 14%;
+    padding-bottom: 2%;
+    align-items: center;
+    margin-top: auto;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    animation-name: bg_heading;
+    position:relative;
+   
+   
+}
+
+
+#chat_div{
+    padding-left: 6%;
+    padding-top: 2%;
+    position: inherit;
+    width: 67%;
+    border: 2px solid black;
+   
+    height:200px;
+    background-color: #fbb666;
+    
+   
+    margin-left:auto;
+    margin-right:auto;
+   /* overflow:scroll;*/
+    height:auto;
+    border-top-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+  
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height:100%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#fbb666; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c88013; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+#chat{
+    padding-bottom: 2%;
+   
+}
+#input{
+    display:flex;
+    text-align: center;
+    margin-left:auto ;
+    margin-right:auto;
+    width:30%;
+    margin-top: 2%;
+    border:2px solid black;
+    display: inline;
+    background-color: #fbb666;
+}
+#submit_btn{
+    
+    margin-left:auto;
+    background-color: #fbb666;
+    margin-right:auto;
+}
+#menu_button{
+  background-color: coral;
+  margin-left:70%;
+  display:inline;
+  position: absolute;
+  
+  
+}
+#menu_div{
+  padding-bottom: 2%;
+  
+}
+#menu_label{
+  margin-left: 60%;
+  display: inline;
+}
+#menu_button:hover{
+  background-color: coral;
+  margin-left:70%;
+  display:inline;
+  transform: translatey(-20%);
+  
+  
+}
