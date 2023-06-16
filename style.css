@@ -29,14 +29,14 @@ iframe{
   border:2px solid black;
   margin-right:auto;
   margin-left:auto;
-  width:400px;
-  height:420px;
+  width:auto;
+  height:auto;
   background-color: #fbb666;
   
    
 }
 #display_div{
-  height:200% auto;
+  height:auto;
   animation-delay: 2s;
 
 
