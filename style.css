@@ -25,6 +25,12 @@ body{
   }
   
 }
+
+label{
+  display:flex;
+  justify-content: right;
+  margin-right: 29%;
+}
 iframe{
   border:2px solid black;
   margin-right:auto;
